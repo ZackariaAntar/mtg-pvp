@@ -14,16 +14,12 @@ import { useDispatch, useSelector } from "react-redux";
 import SearchBar from "../SearchBar/SearchBar";
 import ResultGallery from "../ResultGallery/ResultGallery";
 
-import USBS from "../USBS/USBS";
-
 function App() {
 	return (
 		<Container
 		sx={{my:10}}
 		xs={12}
 		>
-			{/* <USBS /> */}
-
             <SearchBar />
             <ResultGallery />
 
